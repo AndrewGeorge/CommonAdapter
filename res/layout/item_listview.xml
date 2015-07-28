@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:descendantFocusability="blocksDescendants"
+     >
+
+    <TextView
+        android:id="@+id/id_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="3dp"
+        android:text="android新技能"
+        android:textColor="#444"
+        android:textSize="16sp" />
+
+    <CheckBox
+        android:id="@+id/id_cbox"
+       
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/id_title" />
+
+    <TextView
+        android:id="@+id/id_dec"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/id_title"
+        android:layout_marginTop="10dp"
+        android:layout_toLeftOf="@id/id_cbox"
+        android:maxLines="2"
+        android:minLines="1"
+        android:paddingLeft="3dp"
+        android:text="android打造万能的适配器和啊飒飒阿克萨卡萨阿里卡萨拉克丝"
+        android:textColor="#89898989"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/id_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/id_dec"
+        android:layout_marginTop="10dp"
+        android:padding="3dp"
+        android:text="2015-7-27"
+        android:textColor="#89898989"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/id_phone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/id_dec"
+        android:layout_marginTop="10dp"
+        android:background="#2ED667"
+        android:padding="3dp"
+        android:text="10086"
+        android:textColor="#89898989"
+        android:textSize="12sp" />
+
+</RelativeLayout>
